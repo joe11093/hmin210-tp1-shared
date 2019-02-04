@@ -7,6 +7,10 @@ public class Species implements Serializable{
 	private static final long serialVersionUID = 1L;
 	String name;
 
+	public Species() {
+		super();
+	}
+	
 	public Species(String name) {
 		super();
 		this.name = name;
